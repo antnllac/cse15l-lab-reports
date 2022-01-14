@@ -1,4 +1,4 @@
-# Lab Report 1 Week 2
+# Lab Report 1 - Week 2
 In our first week of CSE15L, we learned how to set up our computer to remotely access the CSE lab computers. We will be able to complete this in 6 steps.
 
 
