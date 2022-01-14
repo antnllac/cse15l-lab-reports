@@ -73,3 +73,4 @@ Now we will come up with the most ideal process for making a local edit to Where
 <br/><br/>
 PICTURE
 <br/><br/>
+Now you have successfully set up your computer to remotely access the CSE lab computers!
