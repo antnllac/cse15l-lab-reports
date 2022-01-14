@@ -38,9 +38,16 @@ PICTURE
 
 ## Moving files with scp
 This lab includes a .java file called WhereAmI.java. Here is the following code:
-<br/><br/>
-PICTURE
-<br/><br/>
+```
+class WhereAmI {
+  public static void main(String[] args) {
+    System.out.println(System.getProperty("os.name"));
+    System.out.println(System.getProperty("user.name"));
+    System.out.println(System.getProperty("user.home"));
+    System.out.println(System.getProperty("user.dir"));
+  }
+}
+```
 Run WhereAmI.java using java or javac in the terminal. 
 In the terminal, we will run this command:
 <br/><br/> 
