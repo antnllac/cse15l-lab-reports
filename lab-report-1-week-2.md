@@ -44,12 +44,12 @@ class WhereAmI {
 }
 ```
 Run WhereAmI.java using java or javac in the terminal. 
-In the terminal, we will run this command:
-<br/><br/> 
-PICTURE
-<br/><br/>
+In the terminal, we will run this command (with your designated account):
+```
+scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/
+```
 Which will then prompt you to enter your password. Then when you log in using ssh again, type the command “ls” and it should appear. Once it does appear, run it using javac and java. 
-<br/><br/>
+![Image](WhereAmIOutput4.png)
 
 ## Setting an SSH Key
 We will use ssh-keys to avoid having to retype your password every time we log into or run scp. The following attached is what you need to run in the terminal:
