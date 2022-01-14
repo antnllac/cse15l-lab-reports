@@ -1,3 +1,7 @@
+# Lab Report 1 Week 2
+In our first week of CSE15L, we learned how to set up our computer to remotely access the CSE lab computers. We will be able to complete this in 6 steps.
+
+
 # Installing VScode
 First, you will want to go to [VScode](https://code.visualstudio.com/) and follow the given instructions to download VScode. After it is successfully installed, it should look something like this:
 PICTURE
