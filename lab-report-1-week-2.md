@@ -70,7 +70,5 @@ $ scp /Users/joe/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
 
 ## Optimizing Remote Running
 Now we will come up with the most ideal process for making a local edit to WhereAmI.java. Next, we will copy it to the remote server and run it. We can use
-<br/><br/>
-PICTURE
-<br/><br/>
-Now you have successfully set up your computer to remotely access the CSE lab computers!
+![Image](Step6.png)
+To log in. Now you have successfully set up your computer to remotely access the CSE lab computers!
