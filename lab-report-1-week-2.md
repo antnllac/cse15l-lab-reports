@@ -53,10 +53,19 @@ Which will then prompt you to enter your password. Then when you log in using ss
 
 ## Setting an SSH Key
 We will use ssh-keys to avoid having to retype your password every time we log into or run scp. The following attached is what you need to run in the terminal:
-<br/><br/>
-PICTURE
-<br/><br/>
+![Image](SSH5.png)
 There are now two new files in your system, the private key and the public key, which are both stored in the .ssh directory of your computer. Finally, copy the public key to the .ssh directory of your account on the server. 
+```
+$ ssh cs15lwi22zz@ieng6.ucsd.edu
+<Enter Password>
+# now on server
+$ mkdir .ssh
+$ <logout>
+# back on client
+$ scp /Users/joe/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
+# You use your username and the path you saw in the command above
+```
+
 <br/><br/>
 
 ## Optimizing Remote Running
