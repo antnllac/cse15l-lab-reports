@@ -65,9 +65,6 @@ $ <logout>
 $ scp /Users/joe/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
 # You use your username and the path you saw in the command above
 ```
-
-<br/><br/>
-
 ## Optimizing Remote Running
 Now we will come up with the most ideal process for making a local edit to WhereAmI.java. Next, we will copy it to the remote server and run it. We can use
 ![Image](Step6.png)
