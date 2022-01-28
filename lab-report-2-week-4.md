@@ -3,7 +3,7 @@ Over the past two weeks, as we worked on labs 3 and 4 we encountered several bug
 
 # Bug 1
 Code Change:
-<br/><br/>
+![Image](Bug1.png)
 Link to test file:
 <br/><br/>
 Symptom of Failure Inducing Input:
@@ -20,7 +20,7 @@ Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String ind
 
 # Bug 2
 Code Change:
-<br/><br/>
+![Image](Bug2.png)
 Link to test file:
 <br/><br/>
 Symptom of Failure Inducing Input:
@@ -33,7 +33,7 @@ antonella_crawley@Antonellas-MacBook-Air-2 markdown-parse % java MarkdownParse T
 
 # Bug 3
 Code Change:
-<br/><br/>
+![Image](Bug3.png)
 Link to test file:
 <br/><br/>
 Symptom of Failure Inducing Input:
