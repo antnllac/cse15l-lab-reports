@@ -1,28 +1,6 @@
-*Italic*
-**Bold**
-# Heading 1	
-## Heading 2
-[Link](http://google.com)
+# Title
 
-![Image](https://doglime.com/wp-content/uploads/2019/04/A-cute-pug-puppy..jpg)
+![Image] (https://image.shutterstock.com/image-photo/little-beautiful-funny-british-kitten-260nw-1521783215.jpg)
 
-> Blockquote
-
-* List
-* List
-* List
-
-1. One
-2. Two
-3. Three
-
-Horizontal rule:
----
-
-`Inline code` with backticks
-
-```
-# code block
-print '3 backticks or'
-print 'indent 4 spaces'
-```
+[a link!](https://something.com)
+[another link!](some-page.html)

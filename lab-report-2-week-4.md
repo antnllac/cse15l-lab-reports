@@ -4,7 +4,7 @@ Over the past two weeks, as we worked on labs 3 and 4 we encountered several bug
 # Bug 1
 Code Change:
 ![Image](Bug1.png)
-Link to test file:
+Link to test file: [Link](https://code.visualstudio.com/)
 <br/><br/>
 Symptom of Failure Inducing Input:
 ```
@@ -21,7 +21,7 @@ The failure inducing input for this bug comes from Testing.md. We know this beca
 # Bug 2
 Code Change:
 ![Image](Bug2.png)
-Link to test file:
+Link to test file: [Link](https://code.visualstudio.com/)
 <br/><br/>
 Symptom of Failure Inducing Input:
 ```
@@ -34,7 +34,7 @@ The failure inducing input for this bug comes from Testing3.md. We know this bec
 # Bug 3
 Code Change:
 ![Image](Bug3.png)
-Link to test file:
+Link to test file: [Link](https://code.visualstudio.com/)
 <br/><br/>
 Symptom of Failure Inducing Input:
 ```
