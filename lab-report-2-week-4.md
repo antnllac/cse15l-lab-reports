@@ -16,7 +16,7 @@ Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String ind
         at MarkdownParse.main(MarkdownParse.java:35)
 
 ```
-2-3 sentences regarding code.
+The failure inducing input for this bug comes from Testing.md. We know this because we use Testing.md in the terminal to try to get the desired output, which fails (as shown above), which is the symptom of the failure inducing input. We solve this by identifying the bug, which is adding the if statement in lines 16-18.
 
 # Bug 2
 Code Change:
@@ -29,7 +29,7 @@ antonella_crawley@Antonellas-MacBook-Air-2 markdown-parse % javac MarkdownParse.
 antonella_crawley@Antonellas-MacBook-Air-2 markdown-parse % java MarkdownParse Testing3.md
 []
 ```
-2-3 sentences regarding code.
+The failure inducing input for this bug comes from Testing3.md. We know this because we use Testing3.md in the terminal to try to get the desired output, which fails (as shown above), which is the symptom of the failure inducing input. We solve this by identifying the bug, which is adding the if statement in lines 13 and adding the else statement in line 32.
 
 # Bug 3
 Code Change:
@@ -47,4 +47,4 @@ MarkdownParseTest.java:22: error: cannot find symbol
 1 error
 
 ```
-2-3 sentences regarding code.
+The failure inducing input for this bug comes from test-file.md. We know this because we use test-file.md in the terminal to try to get the desired output, which fails (as shown above), which is the symptom of the failure inducing input. We solve this by identifying the bug, which is adding throw IOException to line 19.
