@@ -21,7 +21,7 @@ The failure inducing input for this bug comes from Testing.md. We know this beca
 # Bug 2
 Code Change:
 ![Image](Bug2.png)
-Link to test file: [Link](https://antnllac.github.io/cse15l-lab-reports/testing3)
+Link to test file: [Link](https://antnllac.github.io/cse15l-lab-reports/Testing3)
 <br/><br/>
 Symptom of Failure Inducing Input:
 ```
