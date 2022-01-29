@@ -68,4 +68,17 @@ $ scp /Users/joe/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
 ## Optimizing Remote Running
 Now we will come up with the most ideal process for making a local edit to WhereAmI.java. Next, we will copy it to the remote server and run it. We can use
 ![Image](Step6.png)
-To log in. Now you have successfully set up your computer to remotely access the CSE lab computers!
+to log in. Now you have successfully set up your computer to remotely access the CSE lab computers!
+```
+antonella_crawley@Antonellas-MacBook-Air-2 Lab1_CS15L % scp WhereAmI.java cs15lwi22axg@ieng6.ucsd.edu:~/
+Enter passphrase for key '/Users/antonella_crawley/.ssh/id_rsa': 
+WhereAmI.java                                                                           100%  304     9.3KB/s   00:00    
+antonella_crawley@Antonellas-MacBook-Air-2 Lab1_CS15L % ssh cs15lwi22axg@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"
+Enter passphrase for key '/Users/antonella_crawley/.ssh/id_rsa': 
+Linux
+cs15lwi22axg
+/home/linux/ieng6/cs15lwi22/cs15lwi22axg
+/home/linux/ieng6/cs15lwi22/cs15lwi22axg
+antonella_crawley@Antonellas-MacBook-Air-2 Lab1_CS15L % 
+```
+The total number of keystrokes was 8 keystrokes.
